@@ -44,18 +44,3 @@
 
 
 
-# IMAGES 
-![Screenshot 2022-06-01 233502](https://user-images.githubusercontent.com/70464077/171476243-a24a7c85-4ec2-4ee2-bb3f-b123b2487d3f.jpg)
-
-
-![Screenshot 2022-06-01 233555](https://user-images.githubusercontent.com/70464077/171476297-e0ad8c09-a8cf-4098-b16f-fa0ce37fe2ba.jpg)
-![Screenshot 2022-06-01 234042](https://user-images.githubusercontent.com/70464077/171476305-c22bc892-fe8e-44c2-a02b-c10bef18a068.jpg)
-![Screenshot 2022-06-01 233726](https://user-images.githubusercontent.com/70464077/171476310-791386c0-73e5-4cbe-a7a2-83939475ebb9.jpg)
-![Screenshot 2022-06-01 233658](https://user-images.githubusercontent.com/70464077/171476314-1fa400b9-3f26-42f0-b0ab-46997bf15b9e.jpg)
-![Screenshot 2022-06-01 233629](https://user-images.githubusercontent.com/70464077/171476316-0286b87e-d836-4d51-8c46-52636ea41e9c.jpg)
-![Screenshot 2022-06-01 233614](https://user-images.githubusercontent.com/70464077/171476319-8ffd0959-37ed-4ce1-80b7-a3aa020dcd06.jpg)
-# crypto
-# cryptoproject
-# cryptoproject
-# cryptoproject
-# cryptoproject
