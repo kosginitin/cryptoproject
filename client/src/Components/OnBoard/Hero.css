@@ -1,0 +1,63 @@
+.heroOnBoard {
+  display: flex;
+  padding: 0px var(--paddingHorizontal--);
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+.heroOnBoard > div {
+}
+.heroOnBoard > div:nth-child(1) {
+  width: 45%;
+}
+.heroOnBoard > div:nth-child(1) > h2 {
+  font-family: var(--mainFont--);
+  color: white;
+  font-size: var(--lHeaderOneFontSize--);
+  margin-bottom: 20px;
+
+  font-weight: 600;
+}
+.heroOnBoard > div:nth-child(1) > p {
+  color: #fbfaffe6;
+  font-size: var(--lHeaderTagFontSize--);
+  margin-bottom: 15px;
+}
+.contactBox {
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #425266;
+  display: flex;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: min-content;
+}
+.contactBox > div {
+  background-color: #1a2b41;
+  border-radius: 50%;
+  padding: 6px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contactBox > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 250px;
+  padding: 5px 10px;
+  color: white;
+
+  font-weight: 400;
+  font-size: 16px;
+}
+.contactBox > input::placeholder {
+  font-size: 16px;
+  color: rgb(197, 191, 191);
+}

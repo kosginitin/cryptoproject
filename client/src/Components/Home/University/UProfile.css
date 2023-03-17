@@ -1,0 +1,44 @@
+.uProfile {
+  display: flex;
+  height: 84vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  gap: 50px;
+}
+
+.uProfile > div {
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 4px;
+  background-color: white;
+  border-radius: 13px;
+  height: 90%;
+  width: 50%;
+  padding: 30px;
+}
+.uProfile > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.uploadC {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+.uploadC > div {
+  height: 40px;
+  cursor: pointer;
+}
+
+.continueCertificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--secondColor--);
+  color: white;
+}

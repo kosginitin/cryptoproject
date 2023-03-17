@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "solc": "^0.8.19",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "contractName": "HelperStudent",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol\":\"HelperStudent\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/user_cherry/User/Projects/miniprojectF/contracts/Certification.sol\":{\"keccak256\":\"0xfb48bfae8fc61632a20e2dc802d364d857dff27a2349f131169f604b9b7bedf6\",\"urls\":[\"bzz-raw://30c5ae53a6e3a49e4e96c5507876e0a7476cb6ca7070245876abcf8122a28460\",\"dweb:/ipfs/QmV2suLdTKMqUGtuXsQTPMqyiQiAxieWjoqGmSffYrb2dP\"]},\"/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol\":{\"keccak256\":\"0x324e81ee9f099691806569661f4cbe9dae88d33b9586ea0125f22c97c68f261d\",\"urls\":[\"bzz-raw://0c01aacfec6e6644a63d67280957906374b460290038a6b05b354b93ae558d14\",\"dweb:/ipfs/QmVDixhqp8RKNCsXjMPqHhLP7QoXX3ZWa75diDAAVrLybA\"]},\"/D/user_cherry/User/Projects/miniprojectF/contracts/Organisation.sol\":{\"keccak256\":\"0x02270a4f5da3569759f26b3cc64f1bbee8028c115f75fb304e83852f8420ad20\",\"urls\":[\"bzz-raw://168aa0e2a780c085f034d5cca97d45d3c171e9ec9ea153a6d9995949ab9a1e49\",\"dweb:/ipfs/QmZAhVRBdzMjatwkzB3Vc6x94vM61ZArCdZYoxfqwqBgVk\"]},\"/D/user_cherry/User/Projects/miniprojectF/contracts/Student.sol\":{\"keccak256\":\"0xcf5f21da7a52a35fe9c1cb45e2536a80a24cbf759b7930e25163209fffcce49a\",\"urls\":[\"bzz-raw://43880d895167ec7f8ab5d86776f8d96131237a0842a0650b92806bef3082f962\",\"dweb:/ipfs/QmeDcJkmDoaB1CtvVD5i6n19So8H7G4Hnf5emmjXqEknhw\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50604c80601d6000396000f3fe6080604052600080fdfea365627a7a72315820f409aaefbdbbd22902534d55758aa990e3f5b885597bb47134b8b8cfb10c622f6c6578706572696d656e74616cf564736f6c63430005100040",
+  "deployedBytecode": "0x6080604052600080fdfea365627a7a72315820f409aaefbdbbd22902534d55758aa990e3f5b885597bb47134b8b8cfb10c622f6c6578706572696d656e74616cf564736f6c63430005100040",
+  "sourceMap": "159:1394:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;159:1394:3;;;;;;;",
+  "deployedSourceMap": "159:1394:3:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.21 <0.7.0;\r\npragma experimental ABIEncoderV2;\r\nimport \"./Organisation.sol\";\r\nimport \"./Student.sol\";\r\n\r\ncontract HelperStudent {\r\n    // function getStudentDetail()\r\n    //     public\r\n    //     view\r\n    //     returns (\r\n    //         string memory,\r\n    //         uint256,\r\n    //         string memory,\r\n    //         address,\r\n    //         uint256\r\n    //     )\r\n    // {\r\n    //     for (uint256 j = 0; j < Orgaganisations.length; j++) {\r\n    //         if (Orgaganisations[j].organisationAddress() == _orgAddress) {\r\n    //             for (\r\n    //                 uint256 k = 0;\r\n    //                 k < Orgaganisations[j].noOfStudents();\r\n    //                 k++\r\n    //             ) {\r\n    //                 if (\r\n    //                     Orgaganisations[j].students(k).student_acc_address() ==\r\n    //                     msg.sender\r\n    //                 ) {\r\n    //                     return (\r\n    //                         Orgaganisations[i].students(k).student_name(),\r\n    //                         Orgaganisations[i].students(k).student_unique_id(),\r\n    //                         Orgaganisations[i].organisationName(),\r\n    //                         Orgaganisations[i].students(k).student_acc_address(),\r\n    //                         Orgaganisations[i].students(k).noOfCertificates()\r\n    //                     );\r\n    //                 }\r\n    //             }\r\n    //         }\r\n    //     }\r\n    //     return (\"\", 0, \"\", address(0), 0);\r\n    // }\r\n}\r\n",
+  "sourcePath": "D:/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol",
+  "ast": {
+    "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol",
+    "exportedSymbols": {
+      "HelperStudent": [
+        1080
+      ]
+    },
+    "id": 1081,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1076,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:3"
+      },
+      {
+        "id": 1077,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:3"
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Organisation.sol",
+        "file": "./Organisation.sol",
+        "id": 1078,
+        "nodeType": "ImportDirective",
+        "scope": 1081,
+        "sourceUnit": 1477,
+        "src": "102:28:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Student.sol",
+        "file": "./Student.sol",
+        "id": 1079,
+        "nodeType": "ImportDirective",
+        "scope": 1081,
+        "sourceUnit": 3866,
+        "src": "132:23:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1080,
+        "linearizedBaseContracts": [
+          1080
+        ],
+        "name": "HelperStudent",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1081,
+        "src": "159:1394:3"
+      }
+    ],
+    "src": "33:1522:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol",
+    "exportedSymbols": {
+      "HelperStudent": [
+        1080
+      ]
+    },
+    "id": 1081,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1076,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:3"
+      },
+      {
+        "id": 1077,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:3"
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Organisation.sol",
+        "file": "./Organisation.sol",
+        "id": 1078,
+        "nodeType": "ImportDirective",
+        "scope": 1081,
+        "sourceUnit": 1477,
+        "src": "102:28:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Student.sol",
+        "file": "./Student.sol",
+        "id": 1079,
+        "nodeType": "ImportDirective",
+        "scope": 1081,
+        "sourceUnit": 3866,
+        "src": "132:23:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1080,
+        "linearizedBaseContracts": [
+          1080
+        ],
+        "name": "HelperStudent",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1081,
+        "src": "159:1394:3"
+      }
+    ],
+    "src": "33:1522:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-06-01T03:45:50.746Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  background-color: #10131a;
+  padding: 150px var(--paddingHorizontal--);
+  display: flex;
+  justify-content: space-between;
+}
+.footer > div:nth-child(1) {
+  width: 40%;
+}
+.footer > div:nth-child(1) > h1 {
+  color: var(--grey--);
+}
+.footer > div:nth-child(2) > h1 {
+  color: var(--grey--);
+  margin-bottom: 30px;
+}
+.footer > div:nth-child(2) > p {
+  color: var(--secondColor--);
+}
+.footer > div:nth-child(2) > p > span {
+  color: tomato;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}

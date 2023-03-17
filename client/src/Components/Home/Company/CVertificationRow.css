@@ -1,0 +1,12 @@
+.verifyRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}

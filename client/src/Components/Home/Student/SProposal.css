@@ -1,0 +1,7 @@
+.proposalHead {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--secondColor--);
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,8 @@
+.downloadButton {
+  color: crimson;
+  cursor: pointer;
+}
+
+.downloadButton:hover {
+  text-decoration: underline;
+}

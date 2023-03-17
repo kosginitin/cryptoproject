@@ -1,0 +1,39 @@
+.navBarHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* height: 10vh; */
+  background-color: white;
+  padding: 0px 100px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 4px;
+}
+.navBarHome > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navBarHome > h1 {
+  color: black;
+}
+.navBarHome > div > div {
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  cursor: pointer;
+  padding: 0px 30px;
+}
+/* .navBarHome > div > div > p {
+  
+ 
+} */

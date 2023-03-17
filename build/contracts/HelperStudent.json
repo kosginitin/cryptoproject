@@ -1,0 +1,172 @@
+{
+  "contractName": "HelperStudent",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol\":\"HelperStudent\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/user_cherry/User/Projects/miniprojectF/contracts/Certification.sol\":{\"keccak256\":\"0x06575d3e520057c1a4fd700bfc97d55c5451fd57a53f3a47c809421fd9ad8e64\",\"urls\":[\"bzz-raw://b88ac1ef8fd22a6ee51220d55913ab6903a04f2d4c3f02a1044a795b9c39744e\",\"dweb:/ipfs/Qmewe3jioyQdT7g9mZ7YQwXxHjkWtPt2oTztwHmbaPuCjC\"]},\"/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol\":{\"keccak256\":\"0x19198f22ccb9bd3654c644267aa38465e7b9cff03f83ff2179955eb2519132d6\",\"urls\":[\"bzz-raw://b1d8bbc9398085ce77d462556679a5b72a3171feb3754934fa910356577057cf\",\"dweb:/ipfs/QmW4aiXvF3hhnipSkB3VoW8vSGfBFLeabMXidAdVmge8UH\"]},\"/D/user_cherry/User/Projects/miniprojectF/contracts/Organisation.sol\":{\"keccak256\":\"0x8345787471229b46cca77c8d30fd1a38cdb19817206b70667d53878776cd3732\",\"urls\":[\"bzz-raw://3312774aa2b9a199e683714469bcdf87a42bdd4c658d8fac2f203f7ae244fa11\",\"dweb:/ipfs/QmdfTu6rUmDu3w5pSNjossZaMrtdHEPceg97A7vT8F7REv\"]},\"/D/user_cherry/User/Projects/miniprojectF/contracts/Student.sol\":{\"keccak256\":\"0x78435f1adfa01b59761b612623818fa3f4d872ef2437c38035a1d36cc5aeb822\",\"urls\":[\"bzz-raw://6cf640c1939a835e826eb6f830d6b57dcf1e2e5aca28b9238f5bac131ae0c615\",\"dweb:/ipfs/QmPdEdL1NhtPaedmeX7EWiFtUSxA5GLizXPqtrHLFmTaaT\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50604c80601d6000396000f3fe6080604052600080fdfea365627a7a72315820926e005d9270a491a438b2ec9e1add44083abe71b8e4c29b856e3788feb5a6d46c6578706572696d656e74616cf564736f6c63430005100040",
+  "deployedBytecode": "0x6080604052600080fdfea365627a7a72315820926e005d9270a491a438b2ec9e1add44083abe71b8e4c29b856e3788feb5a6d46c6578706572696d656e74616cf564736f6c63430005100040",
+  "sourceMap": "163:55:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;163:55:3;;;;;;;",
+  "deployedSourceMap": "163:55:3:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.21 <0.7.0;\r\npragma experimental ABIEncoderV2;\r\nimport \"./Organisation.sol\";\r\nimport \"./Student.sol\";\r\n\r\n\r\n\r\ncontract HelperStudent{\r\n\r\n   \r\n\r\n   \r\n\r\n   \r\n    \r\n\r\n}\r\n",
+  "sourcePath": "D:/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol",
+  "ast": {
+    "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol",
+    "exportedSymbols": {
+      "HelperStudent": [
+        343
+      ]
+    },
+    "id": 344,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 339,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:3"
+      },
+      {
+        "id": 340,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:3"
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Organisation.sol",
+        "file": "./Organisation.sol",
+        "id": 341,
+        "nodeType": "ImportDirective",
+        "scope": 344,
+        "sourceUnit": 547,
+        "src": "102:28:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Student.sol",
+        "file": "./Student.sol",
+        "id": 342,
+        "nodeType": "ImportDirective",
+        "scope": 344,
+        "sourceUnit": 2084,
+        "src": "132:23:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 343,
+        "linearizedBaseContracts": [
+          343
+        ],
+        "name": "HelperStudent",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 344,
+        "src": "163:55:3"
+      }
+    ],
+    "src": "33:187:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/HelperStudent.sol",
+    "exportedSymbols": {
+      "HelperStudent": [
+        343
+      ]
+    },
+    "id": 344,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 339,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:3"
+      },
+      {
+        "id": 340,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:3"
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Organisation.sol",
+        "file": "./Organisation.sol",
+        "id": 341,
+        "nodeType": "ImportDirective",
+        "scope": 344,
+        "sourceUnit": 547,
+        "src": "102:28:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/D/user_cherry/User/Projects/miniprojectF/contracts/Student.sol",
+        "file": "./Student.sol",
+        "id": 342,
+        "nodeType": "ImportDirective",
+        "scope": 344,
+        "sourceUnit": 2084,
+        "src": "132:23:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 343,
+        "linearizedBaseContracts": [
+          343
+        ],
+        "name": "HelperStudent",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 344,
+        "src": "163:55:3"
+      }
+    ],
+    "src": "33:187:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-05-30T15:00:34.728Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
